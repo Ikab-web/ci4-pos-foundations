@@ -17,10 +17,12 @@
 </head>
 <body>
     <nav aria-label="Main navigation">
-        <a href="<?= site_url('/') ?>">Home</a>
-        <a href="<?= site_url('about') ?>">About</a>
-        <a href="<?= site_url('customers') ?>">Customers</a>
-        <a href="<?= site_url('users') ?>">Users</a>
+       <nav aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/customers">Customers</a>
+    <a href="/users">Users</a>
+</nav>
     </nav>
     <main>
         <section class="panel">
